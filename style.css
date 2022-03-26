@@ -1,0 +1,631 @@
+#botao:active,#botaoExcluir:active {
+  background-color: #700808;
+  border: 1px solid whitesmoke;
+}
+#formulario {
+  text-align: left;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 260px;
+  height: 140px;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #c4c5bf;
+  box-shadow: 15px 10px 5px teal;
+}
+.formulario1 {
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+}
+#formulario label {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+#formulario textarea.titulo {
+  background-color: #a8a9ab;
+  border: 1px solid black;
+  height: 30px;
+  width: 170px;
+  margin-top: 5px;
+}
+#formulario button.enviar {
+  background-color: #d5a79c;
+  margin-top: 25px;
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 5px;
+}
+@media (min-width: 992px) {
+  html {
+    background-color: white;
+  }
+  #html2{
+    background-color: #b6c9bb;
+  }
+  #body1 {
+    background-color: #b6c9bb;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 20px;
+    border: 2px solid black;
+  }
+  body::-webkit-scrollbar {
+    background: white;
+    width: 12px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: #b6c9bb;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  #exemplos_superiores {
+    text-align: center;
+  }
+  #exemplos_superiores img {
+    width: 24%;
+    margin-top: 20px;
+  }
+  #main_text {
+    justify-items: center;
+    text-align: center;
+    display: flex;
+  }
+  #main_text p{
+    font-family: Roboto;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-weight: 900;
+    color: #990303;
+  }
+  #botoes{
+    justify-content: center;
+    margin-top: 60px;
+    margin-right: 8%;
+  }
+  #botaoExcluir{
+    color: white;
+    font-family: Shadows Into Light Two;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgba(153, 3, 3, 1);
+    border: 0px;
+    border-radius: 5px;
+  }
+  #texto_principal {
+    font-family: Shadows Into Light Two;
+    color: #880000;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+  #botao {
+    background-color: rgba(153, 3, 3, 1);
+    font-family: Shadows Into Light Two;
+    width: 210px;
+    height: 60px;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 30px;
+    color: white;
+  }
+  #exemplos_inferiores {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .exemplo1{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+  .espaco1{
+    Width: 302px;
+    Height: 180px;
+    background-color: #D78BB8;
+    border-radius: 15px;
+  }
+  .espaco2{
+    width: 302px;
+    height: 180px;
+    background: #9C8B8B;
+    border-radius: 15px;
+    margin-left: 5px;
+    float: left;
+  }
+  .espaco3{
+    width: 302px;
+    height: 180px;
+    background: #422828;
+    border-radius: 15px;
+    margin-left: 5px;
+    float: left;
+  }
+  .exemplo2 img {
+    width: 24%;
+    margin-bottom: 80px;
+  }
+  #reparticao {
+    background-color: black;
+    width: 100%;
+    height: 10px;
+  }
+  #content p {
+    text-align: center;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 600;
+  }
+  #integrantes {
+    text-align: center;
+  }
+  .imagem1 {
+    width: 100px;
+    border-radius: 8px;
+    margin-right: 15px;
+  }
+  .imagem2 {
+    width: 100px;
+    border-radius: 8px;
+    margin-left: 15px;
+  }
+  .nomes {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    font-size: 10px;
+    font-family: Roboto;
+    font-weight: 600;
+  }
+  .nomes p:nth-child(1) {
+    margin-right: 30px;
+  }
+  .nomes p:nth-child(2) {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  html {
+    background-color: white;
+  }
+  #html2{
+    background-color: #b6c9bb;
+  }
+  #body1 {
+    background-color: #b6c9bb;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 20px;
+    border: 2px solid black;
+  }
+  body::-webkit-scrollbar {
+    background: white;
+    width: 12px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: #b6c9bb;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  #exemplos_superiores {
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  #exemplos_superiores img {
+    width: 24%;
+    margin-top: 20px;
+  }
+  #main_text {
+    justify-items: center;
+    text-align: center;
+  }
+  #main_text p{
+    font-family: Roboto;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-weight: 900;
+    color: #990303;
+  }
+  #botoes{
+    justify-content: center;
+    margin-top: 30px;
+  }
+  #botaoExcluir{
+    color: white;
+    font-family: Shadows Into Light Two;
+    font-size: 18px;
+    padding: 5px;
+    background-color: rgba(153, 3, 3, 1);
+    border: 0px;
+    border-radius: 5px;
+  }
+  #texto_principal {
+    font-family: Shadows Into Light Two;
+    color: #880000;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+  #botao {
+    background-color: rgba(153, 3, 3, 1);
+    font-family: Shadows Into Light Two;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 28px;
+    color: white;
+  }
+  #exemplos_inferiores {
+    margin-top: 60px;
+    text-align: center;
+  }
+  .exemplo1{
+    display: flex;
+    justify-content: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 5px;
+  }
+  .espaco1{
+    Width: 302px;
+    Height: 140px;
+    background-color: #D78BB8;
+    border-radius: 15px;
+  }
+  .espaco2{
+    width: 302px;
+    height: 140px;
+    background: #9C8B8B;
+    border-radius: 15px;
+    margin-left: 5px;
+    float: left;
+  }
+  .espaco3{
+    width: 302px;
+    height: 140px;
+    background: #422828;
+    border-radius: 15px;
+    margin-left: 5px;
+    float: left;
+  }
+  .exemplo2 img {
+    width: 22.4%;
+    margin-bottom: 60px;
+  }
+  #reparticao {
+    background-color: black;
+    width: 100%;
+    height: 8px;
+  }
+  #content p {
+    text-align: center;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 600;
+  }
+  #integrantes {
+    text-align: center;
+  }
+  .imagem1 {
+    width: 100px;
+    border-radius: 8px;
+    margin-right: 15px;
+  }
+  .imagem2 {
+    width: 100px;
+    border-radius: 8px;
+    margin-left: 15px;
+  }
+  .nomes {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    font-size: 10px;
+    font-family: Roboto;
+    font-weight: 600;
+  }
+  .nomes p:nth-child(1) {
+    margin-right: 30px;
+  }
+  .nomes p:nth-child(2) {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 767px) and (min-width: 492px) {
+  html {
+    background-color: #b6c9bb;
+  }
+  body::-webkit-scrollbar {
+    background: #b6c9bb;
+    width: 12px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  #exemplos_superiores {
+    margin-top: 50px;
+    text-align: center;
+  }
+  #exemplos_superiores img {
+    width: 24%;
+    margin-top: 20px;
+  }
+  #main_text {
+    justify-items: center;
+    text-align: center;
+  }
+  #main_text p{
+    font-family: Roboto;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-weight: 900;
+    color: #990303;
+  }
+  #botoes{
+    justify-content: center;
+    margin-top: 40px;
+  }
+  #botaoExcluir{
+    color: white;
+    font-family: Shadows Into Light Two;
+    font-size: 16px;
+    background-color: rgba(153, 3, 3, 1);
+    border: 0px;
+    border-radius: 5px;
+  }
+  #texto_principal {
+    font-family: Shadows Into Light Two;
+    color: #880000;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+  #botao {
+    background-color: rgba(153, 3, 3, 1);
+    font-family: Shadows Into Light Two;
+    width: 180px;
+    height: 48px;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 24px;
+    color: white;
+  }
+  #exemplos_inferiores {
+    margin-top: 60px;
+    text-align: center;
+  }
+  .exemplo1{
+    display: flex;
+    justify-content: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 5px;
+  }
+  .espaco1{
+    Width: 302px;
+    Height: 140px;
+    background-color: #D78BB8;
+    border-radius: 15px;
+  }
+  .espaco2{
+    width: 302px;
+    height: 140px;
+    background: #9C8B8B;
+    border-radius: 15px;
+    margin-left: 5px;
+    float: left;
+  }
+  .espaco3{
+    width: 302px;
+    height: 140px;
+    background: #422828;
+    border-radius: 15px;
+    margin-left: 5px;
+    float: left;
+  }
+  .exemplo2 img {
+    width: 24%;
+    margin-bottom: 60px;
+  }
+  #reparticao {
+    background-color: black;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 8px;
+  }
+  #content p {
+    text-align: center;
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 600;
+  }
+  #integrantes {
+    text-align: center;
+  }
+  .imagem1 {
+    width: 100px;
+    border-radius: 8px;
+    margin-right: 15px;
+  }
+  .imagem2 {
+    width: 100px;
+    border-radius: 8px;
+    margin-left: 15px;
+  }
+  .nomes {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    font-size: 10px;
+    font-family: Roboto;
+    font-weight: 600;
+  }
+  .nomes p:nth-child(1) {
+    margin-right: 30px;
+  }
+  .nomes p:nth-child(2) {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 491px) and (min-width: 0px) {
+  html {
+    background-color: #b6c9bb;
+  }
+  body::-webkit-scrollbar {
+    background: #b6c9bb;
+    width: 12px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  #exemplos_superiores {
+    text-align: center;
+  }
+  #exemplos_superiores img {
+    width: 24%;
+    margin-top: 20px;
+  }
+  #main_text {
+    justify-items: center;
+    text-align: center;
+  }
+  #main_text p{
+    font-family: Roboto;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-weight: 900;
+    color: #990303;
+  }
+  #botoes{
+    justify-content: center;
+    margin-top: 40px;
+  }
+  #botaoExcluir{
+    color: white;
+    font-family: Shadows Into Light Two;
+    background-color: rgba(153, 3, 3, 1);
+    border: 0px;
+    border-radius: 5px;
+  }
+  #texto_principal {
+    font-family: Shadows Into Light Two;
+    color: #880000;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+  #botao {
+    background-color: rgba(153, 3, 3, 1);
+    font-family: Shadows Into Light Two;
+    width: 110px;
+    height: 28px;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 14px;
+    color: white;
+  }
+  #exemplos_inferiores {
+    margin-top: 60px;
+    text-align: center;
+  }
+  .exemplo1{
+    display: flex;
+    justify-content: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 5px;
+  }
+  .espaco1{
+    Width: 302px;
+    Height: 120px;
+    background-color: #D78BB8;
+    border-radius: 15px;
+  }
+  .espaco2{
+    width: 302px;
+    height: 120px;
+    background: #9C8B8B;
+    border-radius: 15px;
+    margin-left: 5px;
+    float: left;
+  }
+  .espaco3{
+    width: 302px;
+    height: 120px;
+    background: #422828;
+    border-radius: 15px;
+    margin-left: 5px;
+    float: left;
+  }
+  .fonte{
+    color: aliceblue;
+    font-size: 30px;
+  }
+  .exemplo2 img {
+    width: 24%;
+    margin-bottom: 50px;
+  }
+  #reparticao {
+    background-color: black;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 5px;
+  }
+  #content p {
+    text-align: center;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 600;
+  }
+  #integrantes {
+    text-align: center;
+  }
+  .imagem1 {
+    width: 80px;
+    border-radius: 8px;
+    margin-right: 15px;
+  }
+  .imagem2 {
+    width: 80px;
+    border-radius: 8px;
+    margin-left: 15px;
+  }
+  .nomes {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    font-size: 10px;
+    font-family: Roboto;
+    font-weight: 600;
+  }
+  .nomes p:nth-child(1) {
+    margin-right: 20px;
+  }
+  .nomes p:nth-child(2) {
+    margin-left: 20px;
+  }
+}
